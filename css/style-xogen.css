@@ -121,7 +121,7 @@ a:focus{
 .banner-section .whatsapp-btn{font-size:14px;padding:8px 20px;margin-bottom:15px;margin-top:15px}
 .banner-section .google-review{top:80px}
 .banner-section .google-review p{font-size:10px}
-.banner-section .banner-content{margin-top:20px;margin-bottom:150px;padding:30px 20px}
+.banner-section .banner-content{margin-top:30px;margin-bottom:30px;padding:30px 20px}
 }
 
 /*=====================================================================*/
@@ -1033,3 +1033,28 @@ ul.nptabbs{display:none}
 .tabb_container{box-shadow:none;border:none;margin-top:0;background-color:#fff}
 }
 
+
+/*=====================================================================*/
+/* Xogen List css*/
+/*=====================================================================*/
+
+.xogen-list-para{padding-inline-start:0px;margin-bottom:0;list-style:none;padding-inline-start:0px}
+.xogen-list-para li{display:flex;padding-right:20px;color:#212121;padding-top:1px;font-weight:300;margin-bottom:12px!important}
+.xogen-list-para li img{width:21px;height:20px;margin-right:10px;margin-top:3px}
+@media (max-width:768px){
+.xogen-list-para{list-style:none;padding-inline-start:0px;margin-bottom:0}
+.xogen-list-para li{padding-bottom:0;padding-top:10px}
+}
+@media (max-width:600px){
+.xogen-list-para li{display:flex;padding-right:0;color:#212121;padding-top:0}
+.xogen-list-para li img{width:18px;height:17px;margin-right:10px;margin-top:3px}
+}
+
+/*=====================================================================*/
+/* Banner List css*/
+/*=====================================================================*/
+.banner-list-xogen-new{padding-inline-start:0px;margin-bottom:10px;list-style:disc;padding-inline-start:25px}
+.banner-list-xogen-new li{color:#fff;font-size:16px;padding-top:5px}
+@media (max-width:600px){
+.banner-list-xogen-new li{font-size:14px}
+}
