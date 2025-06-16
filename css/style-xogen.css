@@ -1054,7 +1054,7 @@ ul.nptabbs{display:none}
 /* Banner List css*/
 /*=====================================================================*/
 .banner-list-xogen-new{padding-inline-start:0px;margin-bottom:10px;list-style:disc;padding-inline-start:25px}
-.banner-list-xogen-new li{color:#fff;font-size:16px;padding-top:5px}
+.banner-list-xogen-new li{color:#ffffff;font-size:16px;padding-top:5px}
 @media (max-width:600px){
-.banner-list-xogen-new li{font-size:14px}
+.banner-list-xogen-new li{font-size:14px; color: #ffffff;}
 }
